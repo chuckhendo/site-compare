@@ -58,7 +58,7 @@ class SiteScreenshot {
 }
 function compare(url1, url2, outputFileName) {
     return __awaiter(this, void 0, void 0, function* () {
-        const nightmare = new Nightmare({ show: true });
+        const nightmare = new Nightmare({ show: false });
         const ss1 = new SiteScreenshot(url1, nightmare);
         const ss2 = new SiteScreenshot(url2, nightmare);
         yield ss1.getSiteDimensions();

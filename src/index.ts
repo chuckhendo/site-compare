@@ -63,7 +63,7 @@ class SiteScreenshot {
 
 
 export async function compare(url1:string, url2:string, outputFileName: string) {
-    const nightmare = new Nightmare({ show: true });
+    const nightmare = new Nightmare({ show: false });
     const ss1 = new SiteScreenshot(url1, nightmare);
     const ss2 = new SiteScreenshot(url2, nightmare);
     
