@@ -1,0 +1,24 @@
+{
+  "name": "site-compare",
+  "bin": {
+    "site-comp": "dist/cli.js"
+  },
+  "version": "1.0.0",
+  "description": "Visual regression testing",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carl Henderson",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "nightmare": "^2.6.0",
+    "pixelmatch": "^4.0.1",
+    "pngjs": "^3.0.0",
+    "meow": "^3.7.0"
+  }
+}

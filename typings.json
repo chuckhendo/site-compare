@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "nightmare": "registry:npm/nightmare#2.5.0+20160531163019"
+  }
+}
